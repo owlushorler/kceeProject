@@ -1,0 +1,111 @@
+// components/PricingSection.js
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+
+const pricingData = [
+  {
+    design: "Bond Design",
+    priceOld: "N6700",
+    priceNew: "N6450",
+    imgUrl:
+      "https://i.ibb.co/tzXcSsC/Whats-App-Image-2025-01-15-at-06-49-04.jpg",
+  },
+  {
+    design: "Classic Design",
+    priceOld: "N6700",
+    priceNew: "N6450",
+    imgUrl:
+      "https://i.ibb.co/h9Scvtx/Whats-App-Image-2025-01-15-at-06-49-10.jpg",
+  },
+  {
+    design: "Shingle Design",
+    priceOld: "N6700",
+    priceNew: "N6450",
+    imgUrl:
+      "https://i.ibb.co/Qd2ZHY8/Whats-App-Image-2025-01-15-at-06-49-15.jpg",
+  },
+  {
+    design: "Milano Design",
+    priceOld: "N6700",
+    priceNew: "N6450",
+    imgUrl:
+      "https://i.ibb.co/c23v3cS/Whats-App-Image-2025-01-15-at-06-49-23.jpg",
+  },
+  {
+    design: "Roman Design",
+    priceOld: "N6700",
+    priceNew: "N6450",
+    imgUrl:
+      "https://i.ibb.co/q9s8Vnk/Whats-App-Image-2025-01-15-at-06-49-35.jpg",
+  },
+  {
+    design: "Flatsheet & Ridges Cover",
+    priceOld: "N6000",
+    priceNew: "N2550",
+    imgUrl:
+      "https://i.ibb.co/qRqWDtg/Whats-App-Image-2025-01-15-at-06-49-36.jpg",
+  },
+];
+
+export default function PricingSection() {
+  const [visibleItems, setVisibleItems] = useState(
+    Array(pricingData.length).fill(false)
+  );
+  const itemsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = itemsRef.current.indexOf(entry.target);
+          setVisibleItems((prev) => {
+            const newVisibleItems = [...prev];
+            newVisibleItems[index] = true;
+            return newVisibleItems;
+          });
+          observer.unobserve(entry.target); // Unobserve after visibility is achieved.
+        }
+      });
+    });
+
+    itemsRef.current.forEach((item) => {
+      if (item) observer.observe(item);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="py-8 -mt-40 bg-gray-100">
+      <h1 className="text-4xl text-blue-600 font-bold text-center mb-4">
+        Jumac Prices For Stone Coated Roofing Sheets
+      </h1>
+      <h2 className="text-2xl  font-semibold text-center mb-2">
+        Stone coated roofing sheets have gained popularity
+      </h2>
+      <div className="grid  place-items-center content-center grid-cols-1 md:grid-cols-2   gap-6">
+        {pricingData.map((item, index) => (
+          <div
+            key={index}
+            ref={(el) => (itemsRef.current[index] = el)} // Reference for the Intersection Observer
+            className={`bg-white flex flex-col border rounded-lg w-80 shadow-md p-4 items-center text-center transition-all   
+              ${visibleItems[index] ? "animate-slide-in" : "opacity-0"}`}
+          >
+            <img
+              src={item.imgUrl}
+              alt={item.design}
+              className="h-32  object-cover rounded"
+            />
+            <h3 className="text-xl font-bold text-blue-700 mt-2">
+              {item.design}
+            </h3>
+            <p className="text-sm">
+              Was {item.priceOld}, Now {item.priceNew}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
