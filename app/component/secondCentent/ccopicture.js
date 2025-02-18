@@ -9,13 +9,13 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Ugochukwu Nwobodo Jude",
+    name: " Nwobodo Kenechukwu Daniel",
     role: "CEO",
     image: kcee,
   },
   {
-    name: "Nwobodo Kenechukwu Daniel",
-    role: "Senior partner",
+    name: " Ugochukwu Nwobodo Jude",
+    role: "SENIOR PARTNER",
     image: kcee3,
   },
 

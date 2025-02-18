@@ -10,7 +10,7 @@ export default function RoofingSolutions() {
             Making A Difference In Roofing Solutions
           </h2>
           <p className="text-sm mb-6">
-            At Jumac Aluminium Roofing, we specialize in designing customized
+            At Top Ken Roofing Solutions, we specialize in designing customized
             aluminium roofing solutions at competitive prices. Our commitment to
             delivering high-quality products that meet our clients’ needs has
             made us a preferred choice across Nigeria.
@@ -27,7 +27,7 @@ export default function RoofingSolutions() {
         <div className="">
           <img
             className="h-60 w-72"
-            src="https://i.ibb.co/ynwznQcL/Whats-App-Image-2025-02-12-at-12-26-52.jpg"
+            src="https://i.ibb.co/WWwZj9rT/Whats-App-Image-2025-02-18-at-14-08-38.jpg"
             alt="man-on-roof"
           />
         </div>

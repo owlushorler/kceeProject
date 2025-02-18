@@ -8,10 +8,10 @@ export default function SatisfiedClients() {
           Satisfied Clients And Homeowners
         </h2>
         <p className="text-md text-gray-700 mb-4">
-          With over 5,000 satisfied clients, Jumac Aluminium Roofing has helped
-          homeowners enjoy quieter, safer, and more aesthetically pleasing homes
-          with our aluminium roofing sheets, aluminium coils, stone-coated
-          tiles, and more.
+          With over 3,000 satisfied clients, Top Ken Aluminum Solutions has
+          helped homeowners enjoy quieter, safer, and more aesthetically
+          pleasing homes with our aluminium roofing sheets, aluminium coils,
+          stone-coated tiles, and more
         </p>
         <p className="text-md text-gray-700">
           Our clients consistently express their satisfaction with both the

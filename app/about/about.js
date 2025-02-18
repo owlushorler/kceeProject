@@ -14,7 +14,7 @@ export default function AboutUs() {
         <SlidingContent />
 
         <h1 className="text-4xl p-16 font-bold text-white">About Us</h1>
-        <p className="mt-4 text-xl text-white">Jumac Aluminium Roofing</p>
+        <p className="mt-4 text-xl text-white">TOPKEN ROOFING SOLUTION</p>
         <ExpandableContent />
       </div>
     </div>
