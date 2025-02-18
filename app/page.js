@@ -15,6 +15,7 @@ import StepTiles from "./component/secondCentent/typeOfAll";
 import ContactSection from "./component/secondCentent/getInTouch";
 import Footer from "./component/secondCentent/footer";
 import WhatsAppButton from "./whatapp/page";
+import HamburgerMenu from "./component/Alart";
 
 export default function Home() {
   return (

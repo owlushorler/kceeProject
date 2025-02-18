@@ -14,7 +14,7 @@ const Pic = () => {
       </div>
 
       <div className="flex flex-col items-center -mt-44  md:-mt-44 justify-center text-center h-screen p-4">
-        <h1 className="text-3xl text-blue-800  font-bold mb-4">
+        <h1 className="text-3xl text-blue-950  font-bold mb-4">
           The Types & Prices Of Stone Coated Roofing Sheets
         </h1>
         <p className="text-sm text-gray-600 mb-2">

@@ -1,7 +1,7 @@
 // components/RoofingProcess.js
 export default function RoofingProcess() {
   return (
-    <section className="bg-red-700 py-10">
+    <section className="bg-yellow-600 py-10">
       <h2 className="text-white text-3xl text-center mb-8">
         Our Roofing Process
       </h2>

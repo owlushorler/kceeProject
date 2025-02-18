@@ -35,7 +35,7 @@ const StepTiles = () => {
         Types of Aluminium Roofing Sheets
       </div>
 
-      <div className="flex flex-row flex-wrap justify-center gap-6 p-4 bg-gray-200">
+      <div className="flex flex-row flex-wrap justify-center gap-6 p-4 bg-blue-950 text-white">
         {stepTilesData.map((tile, index) => (
           <div
             key={index}
@@ -48,12 +48,16 @@ const StepTiles = () => {
                 className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
               />
 
-              <div className=" text-center p-4">
-                <strong className="font-medium">{tile.title}</strong>
+              <div className=" text-center bg-yellow-600  p-4">
+                <strong className=" text-blue-950  font-medium">
+                  {tile.title}
+                </strong>
 
-                <span className="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
+                <span className="hidden sm:block sm:h-px sm:w-8 sm:bg-blue-500"></span>
 
-                <p className="mt-0.5 opacity-50 sm:mt-0">{tile.description}</p>
+                <p className="mt-0.5 text-blue-950  sm:mt-0">
+                  {tile.description}
+                </p>
               </div>
             </a>
           </div>

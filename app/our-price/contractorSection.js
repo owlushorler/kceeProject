@@ -2,8 +2,8 @@
 
 export default function ContractorSection() {
   return (
-    <div className="flex justify-center items-center bg-gray-100 p-8">
-      <div className="max-w-3xl bg-white shadow-md rounded-lg p-6 flex items-center flex-col md:flex-row">
+    <div className="flex justify-center items-center bg-blue-950 p-8">
+      <div className="max-w-3xl bg-yellow-600 shadow-md rounded-lg p-6 flex items-center flex-col md:flex-row">
         <div className="md:w-1/2">
           <h2 className="text-blue-600 text-2xl font-bold mb-4">
             Roofing General Contractor

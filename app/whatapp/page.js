@@ -11,7 +11,7 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 bg-green-500 w-36 text-white rounded-full shadow-lg p-3 text-xl flex items-center justify-center hover:bg-green-600 transition"
     >
-      <i className="fab fa-whatsapp"></i> <p>Whatapp</p>
+      <i className="fab fa-whatsapp"> </i> <p> Whatapp </p>
     </a>
   );
 };

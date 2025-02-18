@@ -7,11 +7,11 @@ import Homeeee from "../component/bodyscroll2";
 
 export default function PricingSection() {
   return (
-    <div className="p-8 bg-gray-50">
-      <h1 className="text-2xl  text-blue-700  font-bold text-center mb-4">
+    <div className="p-8 text-center bg-gray-50">
+      <h1 className="text-2xl  text-blue-950 font-bold text-center mb-4">
         Jumac Prices For Stone Coated Roofing Sheets in 2025
       </h1>
-      <h2 className="text-xl  text-blue-700  font-semibold text-center mb-2">
+      <h2 className="text-xl  text-blue-950  font-semibold text-center mb-2">
         Importers and Suppliers of High Quality Stone Coated Roofing Sheets
       </h2>
       <p className="mb-4 text-sm text-center text-gray-700">
@@ -21,7 +21,7 @@ export default function PricingSection() {
         provide high-quality products at unbeatable stone coated roofing prices
         for commercial and residential use.
       </p>
-      <h3 className="text-xl   text-blue-700  font-semibold mb-2">
+      <h3 className="text-xl   text-blue-950  font-semibold mb-2">
         Our stone coated roofing sheets are available in various types and
         prices, including:
       </h3>
@@ -35,7 +35,7 @@ export default function PricingSection() {
           Stone Coated Flat sheet for N6000 and Ridges cover N2550 per one.
         </li>
       </ul>
-      <h3 className="text-xl text-blue-700 font-semibold mb-2">
+      <h3 className="text-xl text-blue-950 font-semibold mb-2">
         Colors Available:
       </h3>
       <p className="text-gray-700 text-sm">Black and mixed colors.</p>

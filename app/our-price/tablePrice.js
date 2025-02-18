@@ -68,7 +68,7 @@ export default function PriceTable() {
     <div className="overflow-x-auto px-3 md:px-52 -mt-48   ">
       <table className="min-w-full bg-white border border-gray-300 rounded-lg">
         <thead>
-          <tr className="bg-red-700 text-white">
+          <tr className="bg-blue-950 text-white">
             <th className="py-2 px-4 border border-gray-300">
               GAUGE/THICKNESS
             </th>

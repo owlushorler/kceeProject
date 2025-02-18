@@ -8,6 +8,7 @@ const pricingData = [
     design: "Bond Design",
     priceOld: "N6700",
     priceNew: "N6450",
+    logo: "",
     imgUrl:
       "https://i.ibb.co/tzXcSsC/Whats-App-Image-2025-01-15-at-06-49-04.jpg",
   },
@@ -78,7 +79,7 @@ export default function PricingSection() {
 
   return (
     <div className="py-8 -mt-40 bg-gray-100">
-      <h1 className="text-4xl text-blue-600 font-bold text-center mb-4">
+      <h1 className="text-4xl text-blue-950 font-bold text-center mb-4">
         Jumac Prices For Stone Coated Roofing Sheets
       </h1>
       <h2 className="text-2xl  font-semibold text-center mb-2">
@@ -89,15 +90,20 @@ export default function PricingSection() {
           <div
             key={index}
             ref={(el) => (itemsRef.current[index] = el)} // Reference for the Intersection Observer
-            className={`bg-white flex flex-col border rounded-lg w-80 shadow-md p-4 items-center text-center transition-all   
+            className={`bg-white flex flex-col border rounded-lg   shadow-md p-4 items-center text-center transition-all   
               ${visibleItems[index] ? "animate-slide-in" : "opacity-0"}`}
           >
             <img
+              src="https://i.ibb.co/tpDfLpWg/Whats-App-Image-2025-02-06-at-20-49-04-1.jpg"
+              alt={item.design}
+              className="h-14 W-14"
+            />
+            <img
               src={item.imgUrl}
               alt={item.design}
-              className="h-32  object-cover rounded"
+              className="h-64  w-96  rounded"
             />
-            <h3 className="text-xl font-bold text-blue-700 mt-2">
+            <h3 className="text-xl font-bold text-blue-950 mt-2">
               {item.design}
             </h3>
             <p className="text-sm">

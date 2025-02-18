@@ -36,7 +36,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative  h-96 flex  flex-col mt-36 justify-center">
+    <div className="relative  h-96 flex  flex-col mt-40 justify-center">
       {/* Fixed Image at the Top  
       <Image 
         src=""
@@ -60,7 +60,7 @@ const Carousel = () => {
           src={pictures[currentIndex]}
           alt={`Picture ${currentIndex + 1}`}
           style={{ height: "38rem" }}
-          className="w-screen   vx   -mt-40  transition-transform duration-200 object-cover"
+          className="w-screen   vx   -mt-52  transition-transform duration-200 object-cover"
         />
 
         {/* <button  
@@ -84,29 +84,11 @@ const Carousel = () => {
             residential, commercial, and industrial buildings.
           </p>
           <div className="flex flex-col w-40 gap-1">
-            {off && (
-              <button
-                onClick={() => setoff(false)}
-                className="bg-blue-500 text-white font-semibold py-2 px-4 rounded transition duration-1000 ease-in-out hover:bg-red-500"
-              >
+            <Link href="pricelist">
+              <button className="bg-blue-950 text-white font-semibold py-2 px-4 rounded transition duration-1000 ease-in-out hover:bg-red-500">
                 View Price List
               </button>
-            )}
-            {!off && (
-              <Link href="/p">
-                <button className="bg-red-500 text-white font-semibold py-2 px-4 rounded transition duration-1000 ease-in-out hover:bg-blue-500">
-                  Aluminium Roof
-                </button>
-              </Link>
-            )}
-
-            {!off && (
-              <Link href="/our-price">
-                <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded transition duration-1000 ease-in-out hover:bg-red-500">
-                  Stone Coated
-                </button>
-              </Link>
-            )}
+            </Link>
           </div>
         </div>
       </div>

@@ -19,8 +19,9 @@ export default function Nav() {
       <Pic />
       <Pricing />
       <PricingSection />
-      <FooterMessage />
+
       <ContractorSection />
+      <FooterMessage />
       <WhatsAppButton />
       <Footer />
     </div>

@@ -55,7 +55,7 @@ export default function Form() {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white font-bold py-2 rounded-md hover:bg-blue-700 transition duration-200"
+              className="w-full bg-blue-950 text-white font-bold py-2 rounded-md hover:bg-blue-700 transition duration-200"
             >
               Send
             </button>
@@ -130,7 +130,7 @@ export default function Form() {
           </div>
         </div>
         {/**second flex */}
-        <div className="mt-6">
+        <div className="mt-6 bg-yellow-600 rounded-lg mx-3 text-white">
           <div className="p-6  mx-auto rounded-lg ">
             <h2 className="text-xl font-bold mb-4">
               Send a Message on WhatsApp
@@ -138,12 +138,12 @@ export default function Form() {
             <p className="mb-4">Click here to contact us!</p>
             <a
               href="https://wa.me/234 906 773 4915"
-              className="flex items-center justify-center bg-green-500 text-white font-bold py-2 rounded-md hover:bg-green-600 transition duration-200"
+              className="flex items-center justify-center bg-green-600 text-white font-bold py-2 rounded-md hover:bg-green-700 transition duration-200"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://i.ibb.co/jHzHLmy/whatappppp.jpg"
+                src="https://i.ibb.co/6RjtT0Pr/whatapp.webp"
                 alt="WhatsApp"
                 className="w-5 h-5 mr-2"
               />
@@ -159,13 +159,13 @@ export default function Form() {
               <h3 className="font-bold mt-4 mb-2">E-Mail</h3>
               <a
                 href="mailto:info@jumacaluminumroofing.com"
-                className="text-blue-600"
+                className="text-blue-950"
               >
                 info@jumacaluminumroofing.com
               </a>
 
               <h3 className="font-bold mt-4 mb-2">Phone</h3>
-              <p className="text-blue-600">+234 906 773 4915</p>
+              <p className="text-blue-950">+234 906 773 4915</p>
             </div>
           </div>
         </div>

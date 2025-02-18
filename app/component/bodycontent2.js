@@ -1,6 +1,6 @@
 import CappedScroll from "./Body";
 import slate from "../images/WhatsApp Image 2025-01-06 at 14.35.01.jpeg";
-import slate2 from "../images/roofMan.webp";
+import slate2 from "../images/WhatsApp Image 2025-02-12 at 09.23.07.jpeg";
 import Image from "next/image";
 import CappedScroA from "./bodycont1";
 import CappedScroAb from "./bodyScroll";
@@ -13,7 +13,7 @@ const Homeee1 = () => {
   return (
     <div>
       <nav className=" flex flex-col gap-11  sm:grid  sm:grid-cols-2 sm:gap-4 p-7  -mt-80    justify-between">
-        <div className="relative -mt-52  p-3 h-96 text-black  bg- bg-red-600">
+        <div className="relative -mt-52  p-3 h-96 text-black  bg- bg-yellow-600">
           {" "}
           <Image
             className=" h-too sm:h-to"
@@ -27,7 +27,7 @@ const Homeee1 = () => {
           </div>
         </div>
 
-        <div className="relative mb-52  p-3 h-96 text-black  bg- bg-blue-900">
+        <div className="relative mb-52  p-3 h-96 text-black  bg- bg-blue-950">
           {" "}
           <Image className=" h-too sm:h-to" src={slate2} alt="ee" />
           {/* Create some content to scroll */}
