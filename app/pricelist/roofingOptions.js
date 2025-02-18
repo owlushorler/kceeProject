@@ -30,7 +30,7 @@ const PriceList = () => {
                 src={option.image}
                 alt={option.title}
                 width={400}
-                className=" h-96 w- rounded-lg hover:scale-105 transition-transform duration-300"
+                className=" md:h-80 w- rounded-lg hover:scale-105 transition-transform duration-300"
               />
 
               <div className="absolute bottom-0 left-0 right-0 bg-blue-950 hover:cursor-pointer hover:opacity-45 bg-opacity-70 text-white text-center p-2 rounded-b-lg">

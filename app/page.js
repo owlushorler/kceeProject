@@ -16,6 +16,8 @@ import ContactSection from "./component/secondCentent/getInTouch";
 import Footer from "./component/secondCentent/footer";
 import WhatsAppButton from "./whatapp/page";
 import HamburgerMenu from "./component/Alart";
+import Experts from "./component/secondCentent/ccopicture";
+import TeamMembers from "./component/secondCentent/ccopicture";
 
 export default function Home() {
   return (
@@ -26,8 +28,10 @@ export default function Home() {
       <Homeeee />
 
       <Homeee1 />
+
       <StepTiles />
       <RoofingProcess />
+      <TeamMembers />
       <ContactSection />
       <WhatsAppButton />
       <Footer />

@@ -1,3 +1,4 @@
+import TeamMembers from "../component/secondCentent/ccopicture";
 import Footer from "../component/secondCentent/footer";
 import WhatsAppButton from "../whatapp/page";
 import AboutUs from "./about";
@@ -11,7 +12,9 @@ export default function Home() {
       <AboutUs />
       <RoofingSolutions />
       <CompanyInfo />
+
       <SatisfiedClients />
+      <TeamMembers />
       <WhatsAppButton />
       <Footer />
     </div>

@@ -6,11 +6,17 @@ const Dialog = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return ReactDOM.createPortal(
-    <div className="fixed inset-0 flex -ml-96  items-center justify-center z-50 backdrop-blur-sm">
+    <div className="fixed inset-0  flex -ml-96   items-center justify-center z-50 backdrop-blur-sm">
       <div className="absolute   mt-2 w-48 bg-white border rounded shadow-lg -z">
         <div>
           <div className=" sm:hidden  h-screen opacity-95 bg-blue-950 w-screen  justify-between items-center">
             <div className=" flex flex-col items-center gap-3 text-2xl text-left p-16 ">
+              <img
+                src="https://i.ibb.co/LdZx030c/Whats-App-Image-2025-02-06-at-20-49-04.jpg"
+                alt="48cd37a027bb45f29c58ceabdce99972-1737213099"
+                className="h-32 w-32 rounded-lg"
+              />
+
               <Link href="/" className="text-white hover:text-blue-500">
                 Home
               </Link>
@@ -63,10 +69,10 @@ const Dialog = ({ isOpen, onClose }) => {
                 Contact
               </Link>
               <button
-                className="mt-4 bg-blue-500 text-white p-2 rounded"
+                className="mt-4 bg-blue-950 text-white p-2 rounded"
                 onClick={onClose}
               >
-                Close
+                X
               </button>
             </div>
           </div>
@@ -83,7 +89,7 @@ const Box = () => {
   return (
     <div className="p-5">
       <button
-        className="bg-blue-500 text-white p-2 rounded"
+        className=" text-white p-2 rounded"
         onClick={() => setIsOpen(true)}
       >
         &#9776;
