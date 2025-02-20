@@ -130,8 +130,8 @@ export default function Form() {
           </div>
         </div>
         {/**second flex */}
-        <div className="mt-6 bg-white text-black rounded-lg mx-3  ">
-          <div className="p-6  mx-auto rounded-lg ">
+        <div className="mt-6 bg-white text-black rounded-lg  ">
+          <div className="p-2  mx-auto rounded-lg ">
             <div className="bg-white gap-3 hover:shadow-2xl hover:cursor-pointer text-black flex flex-row  shadow-md">
               <div className="flex items-center">
                 <img
