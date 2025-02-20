@@ -9,7 +9,7 @@ export default function ContractorSection() {
             Roofing General Contractor
           </h2>
           <p className="mb-4">
-            At Jumac J Aluminium Ventures, we aim to provide a complete
+            At Top Ken Roofing Solutions, we aim to provide a complete
             experience in selling, installing, and maintaining aluminium roofing
             sheets. Our goal is to make the process as seamless as possible for
             our clients, and our factory-direct prices ensure you get the best
@@ -21,17 +21,6 @@ export default function ContractorSection() {
             <li>Sales of Aluminium Coils</li>
             <li>Sales of Stone Coated Tiles</li>
           </ul>
-          <p>
-            Visit our{" "}
-            <a href="#" className="text-blue-500 underline">
-              Facebook
-            </a>{" "}
-            and{" "}
-            <a href="#" className="text-blue-500 underline">
-              Instagram
-            </a>
-            .
-          </p>
         </div>
         <div className="md:w-1/2 mt-4 md:mt-0">
           <img

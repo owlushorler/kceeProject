@@ -9,13 +9,13 @@ export default function PricingSection() {
   return (
     <div className="p-8 text-center bg-gray-50">
       <h1 className="text-2xl  text-blue-950 font-bold text-center mb-4">
-        Jumac Prices For Stone Coated Roofing Sheets in 2025
+        Top Ken Roofing Solutions Prices For Stone Coated Roofing Sheets in 2025
       </h1>
       <h2 className="text-xl  text-blue-950  font-semibold text-center mb-2">
         Importers and Suppliers of High Quality Stone Coated Roofing Sheets
       </h2>
       <p className="mb-4 text-sm text-center text-gray-700">
-        At Jumac J Aluminium Ventures, we are committed to manufacturing and
+        At Top Ken Roofing Solutions, we are committed to manufacturing and
         supplying premium-quality stone coated roofing sheets for both local and
         international markets. Our extensive industry knowledge allows us to
         provide high-quality products at unbeatable stone coated roofing prices

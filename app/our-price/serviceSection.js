@@ -10,7 +10,7 @@ export default function ServicesSection() {
         Manufacturers and Suppliers of High Quality Aluminium Roofing Sheet
       </h2>
       <p className="text-sm text-center mb-6">
-        At Jumac J Aluminium Ventures, we are committed to manufacturing and
+        At Top Ken Roofing Solutions, we are committed to manufacturing and
         supplying premium-quality aluminium roofing sheets for both local and
         international markets. Our extensive industry knowledge allows us to
         provide high-quality products at unbeatable aluminium roofing prices for

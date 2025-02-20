@@ -11,6 +11,12 @@ const Dialog = ({ isOpen, onClose }) => {
         <div>
           <div className=" sm:hidden  h-screen opacity-95 bg-blue-950 w-screen  justify-between items-center">
             <div className=" flex flex-col items-center gap-3 text-2xl text-left p-16 ">
+              <div
+                className=" hover:cursor-pointer hover:text-blue-600 bg-blue-950 flex flex-row ml-72 text-white p-2 rounded"
+                onClick={onClose}
+              >
+                X
+              </div>
               <img
                 src="https://i.ibb.co/LdZx030c/Whats-App-Image-2025-02-06-at-20-49-04.jpg"
                 alt="48cd37a027bb45f29c58ceabdce99972-1737213099"
@@ -68,12 +74,6 @@ const Dialog = ({ isOpen, onClose }) => {
               <Link href="/contact" className="text-white hover:text-blue-500">
                 Contact
               </Link>
-              <button
-                className="mt-4 bg-blue-950 text-white p-2 rounded"
-                onClick={onClose}
-              >
-                X
-              </button>
             </div>
           </div>
         </div>

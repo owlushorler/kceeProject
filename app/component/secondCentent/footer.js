@@ -35,7 +35,7 @@ const Footer = () => {
             <p className="mt-4 text-center text-white lg:text-left lg:text-lg">
               <p>Contact </p>
               198 Ipaja Road, Off Iyana Ipaja, Agege, Lagos State, Nigeria
-              info@jumacaluminiumroofing.com
+              info@topkenroofingsolutions.com
             </p>
 
             <div className="mt-6 flex justify-center gap-4 lg:justify-start">

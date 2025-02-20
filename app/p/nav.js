@@ -14,7 +14,7 @@ export default function Home() {
         <SlidingContent />
 
         <h1 className="text-4xl p-16 font-bold text-white">Our Pricing</h1>
-        <p className="mt-4 text-xl text-white">Jumac Aluminium Roofing</p>
+        <p className="mt-4 text-xl text-white">Top Ken Roofing Solutions</p>
         <ExpandableContent />
       </div>
     </div>

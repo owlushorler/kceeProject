@@ -17,10 +17,10 @@ const CappedScroAA = () => {
 
   return (
     <div
-      className="absolute text-white text-center  top-96 left-0 transform -translate-x-1/2 bg-yellow-700 shadow-lg rounded p-4  max-w-60"
+      className="absolute text-white text-center  top-96 left-0 transform -translate-x-1/2 bg-yellow-700 shadow-lg rounded p-4    max-w-60"
       style={{
         transform: `translateY(${-scrollY * 0.2}px)`, // Inverse effect
-        height: "6rem", // Restrict height
+        height: "8rem", // Restrict height
         overflow: "hidden", // Hide overflow
       }}
     >
@@ -31,7 +31,13 @@ const CappedScroAA = () => {
         We sell high-grade Stone Coated Tiles
       </p>
 
-      <a style={{ fontSize: "11px" }}>Learn More +</a>
+      <a
+        href="pricelist"
+        className="hover:cursor-pointer"
+        style={{ fontSize: "11px" }}
+      >
+        Learn More +
+      </a>
     </div>
   );
 };

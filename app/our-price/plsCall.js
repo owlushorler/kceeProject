@@ -6,7 +6,7 @@ export default function FooterMessage() {
           Please always call to confirm the price. Thank you for your patronage.
         </p>
         <p className="font-bold text-white mt-2">
-          Tel: 09011424578, 08132361070, 07084531118
+          Tel: 09067734915, 08069254277
         </p>
       </div>
 

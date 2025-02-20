@@ -80,7 +80,7 @@ export default function PricingSection() {
   return (
     <div className="py-8 -mt-40 bg-gray-100">
       <h1 className="text-4xl text-blue-950 font-bold text-center mb-4">
-        Jumac Prices For Stone Coated Roofing Sheets
+        Top Ken Prices For Stone Coated Roofing Sheets
       </h1>
       <h2 className="text-2xl  font-semibold text-center mb-2">
         Stone coated roofing sheets have gained popularity

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Form() {
   return (
-    <div className="min-h-screen mt-10  flex flex-col text-center p-20 items-center justify-center bg-gray-100">
+    <div className="min-h-screen mt-10 w-screen flex flex-col text-center py-20 px-3 items-center justify-center bg-gray-100">
       <Head>
         <title>Get A Free Quotation</title>
         <link rel="icon" href="/favicon.ico" />
@@ -130,42 +130,81 @@ export default function Form() {
           </div>
         </div>
         {/**second flex */}
-        <div className="mt-6 bg-yellow-600 rounded-lg mx-3 text-white">
+        <div className="mt-6 bg-white text-black rounded-lg mx-3  ">
           <div className="p-6  mx-auto rounded-lg ">
-            <h2 className="text-xl font-bold mb-4">
-              Send a Message on WhatsApp
-            </h2>
-            <p className="mb-4">Click here to contact us!</p>
-            <a
-              href="https://wa.me/234 906 773 4915"
-              className="flex items-center justify-center bg-green-600 text-white font-bold py-2 rounded-md hover:bg-green-700 transition duration-200"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://i.ibb.co/6RjtT0Pr/whatapp.webp"
-                alt="WhatsApp"
-                className="w-5 h-5 mr-2"
-              />
-              Send A Message
-            </a>
+            <div className="bg-white gap-3 hover:shadow-2xl hover:cursor-pointer text-black flex flex-row  shadow-md">
+              <div className="flex items-center">
+                <img
+                  src="https://i.ibb.co/wFYFstRm/whatapp0222.webp"
+                  alt="WhatsApp"
+                  className="w-10 h-10 mr-2"
+                />
+              </div>
+              <div className=" flex flex-col  items-center p-4">
+                <p className="font-bold">Send a Message on WhatsApp</p>
+                <p>Click here to contact us</p>
+
+                <a
+                  href="https://wa.me/234 906 773 4915"
+                  className="flex items-center justify-center w-44 bg-green-600 text-white font-bold py-2 rounded-md hover:bg-green-700 transition duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://i.ibb.co/6RjtT0Pr/whatapp.webp"
+                    alt="WhatsApp"
+                    className="w-5 h-5 mr-2"
+                  />
+                  Send A Message
+                </a>
+              </div>
+            </div>
 
             <div className="mt-6">
-              <h3 className="font-bold mb-2">Address</h3>
-              <p>
-                198, Ipaja Road, Funmilayo Bus Stop, Agege, Lagos State, Nigeria
-              </p>
+              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+                <div className="flex items-center">
+                  <img
+                    src="https://i.ibb.co/PvJFjKw3/535239.png"
+                    alt="location"
+                    className="w-10 h-10 mr-2"
+                  />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">Address</h3>
+                  <p>
+                    198, Ipaja Road, Funmilayo Bus Stop, Agege, Lagos State,
+                    Nigeria
+                  </p>
+                </div>
+              </div>
 
-              <h3 className="font-bold mt-4 mb-2">E-Mail</h3>
-              <a
-                href="mailto:info@jumacaluminumroofing.com"
-                className="text-blue-950"
-              >
-                info@jumacaluminumroofing.com
-              </a>
+              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+                <div className="flex items-center">
+                  <img
+                    src="https://i.ibb.co/hRbc1DB9/pngtree-email-icon-png-image-1757854.jpg"
+                    alt="location"
+                    className="w-10 h-10 mr-2"
+                  />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">E-Mail</h3>
+                  <p>info@topkenroofingsolutions.com</p>
+                </div>
+              </div>
 
-              <h3 className="font-bold mt-4 mb-2">Phone</h3>
-              <p className="text-blue-950">+234 906 773 4915</p>
+              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+                <div className="flex items-center">
+                  <img
+                    src="https://i.ibb.co/fzMGzszg/pngtree-phone-icon-in-solid-circle-png-image-2380227.jpg"
+                    alt="location"
+                    className="w-10 h-10 mr-2"
+                  />
+                </div>
+                <div className="flex flex-col items-center">
+                  <h3 className="font-bold mb-2">Phone</h3>
+                  <p>+234 9067734915</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
