@@ -8,7 +8,11 @@ import Image from "next/image";
 import SlidingContent from "./Nav";
 import Link from "next/link";
 
-const pictures = [one, two, three];
+const pictures = [
+  "https://i.ibb.co/WptxNDFc/Whats-App-Image-2025-02-12-at-09-22-31-1.jpg",
+  "https://i.ibb.co/1HwnkTY/Whats-App-Image-2025-02-18-at-14-08-38-1.jpg",
+  "https://i.ibb.co/mk7nQTN/Whats-App-Image-2025-02-12-at-12-27-48.jpg",
+];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -56,11 +60,11 @@ const Carousel = () => {
           &lt; Prev  
         </button>  */}
 
-        <Image
+        <img
           src={pictures[currentIndex]}
           alt={`Picture ${currentIndex + 1}`}
           style={{ height: "38rem" }}
-          className="w-screen   vx   -mt-52  transition-transform duration-200 object-cover"
+          className="w-screen     -mt-52  transition-transform duration-200 object-cover "
         />
 
         {/* <button  

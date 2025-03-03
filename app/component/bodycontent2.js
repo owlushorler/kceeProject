@@ -15,11 +15,11 @@ const Homeee1 = () => {
       <nav className=" flex flex-col gap-11  sm:grid  sm:grid-cols-2 sm:gap-4 p-7  -mt-80    justify-between">
         <div className="relative -mt-52  p-3 h-96 text-black  bg- bg-yellow-600">
           {" "}
-          <Image
-            className=" h-too sm:h-to"
+          <img
+            className=" w-dvw h-too sm:h-to"
             //style={{ height: "35rem" }}
-            src={slate}
-            alt="ee"
+            src="https://i.ibb.co/mk7nQTN/Whats-App-Image-2025-02-12-at-12-27-48.jpg"
+            alt="ee2"
           />
           {/* Create some content to scroll */}
           <div className="h-[10vh] flex justify-center items-center">
@@ -29,7 +29,11 @@ const Homeee1 = () => {
 
         <div className="relative mb-52  p-3 h-96 text-black  bg- bg-blue-950">
           {" "}
-          <Image className=" h-too sm:h-to" src={slate2} alt="ee" />
+          <img
+            className=" h-too sm:h-to w-dvw"
+            src="https://i.ibb.co/LXVt5LzR/Whats-App-Image-2025-02-12-at-09-23-07-1.jpg"
+            alt="ee"
+          />
           {/* Create some content to scroll */}
           <div className="h-[10vh] flex justify-center items-center">
             <CappedScroA />

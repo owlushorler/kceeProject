@@ -14,7 +14,11 @@ const Homeee = () => {
       </div>
       <div className="relative  p-3 h-96 text-black   bg-blue-950 ">
         {" "}
-        <Image className="sm:h-to h-too  " src={slate} alt="ee" />
+        <img
+          className="sm:h-to h-too w-svw "
+          src="https://i.ibb.co/Q3NjxZZJ/Whats-App-Image-2025-01-06-at-14-35-02-3.jpg"
+          alt="ee"
+        />
         {/* Create some content to scroll */}
         <div className="h-[10vh] flex justify-center items-center">
           <CappedScroll />

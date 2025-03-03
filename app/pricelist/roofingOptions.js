@@ -6,12 +6,14 @@ const PriceList = () => {
   const roofingOptions = [
     {
       title: "Aluminium Roofing Sheets",
-      image: alum,
+      image:
+        "https://i.ibb.co/0jyxCrcR/Whats-App-Image-2025-02-18-at-10-38-11-2.jpg",
       link: "our-price",
     },
     {
       title: "Stone Coated Roofing Sheets",
-      image: stone,
+      image:
+        "https://i.ibb.co/r2Z3T48Y/Whats-App-Image-2025-01-14-at-11-11-38-3.jpg",
       link: "p",
     },
   ];
@@ -26,7 +28,7 @@ const PriceList = () => {
         {roofingOptions.map((option, index) => (
           <div key={index} className="relative group">
             <a href={option.link}>
-              <Image
+              <img
                 src={option.image}
                 alt={option.title}
                 width={400}

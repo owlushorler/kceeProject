@@ -11,18 +11,21 @@ const teamMembers = [
   {
     name: " Nwobodo Kenechukwu Daniel",
     role: "CEO",
-    image: kcee,
+    image:
+      "https://i.ibb.co/zWQQWSBg/Whats-App-Image-2025-02-18-at-12-33-09.jpg",
   },
   {
     name: " Ugochukwu Nwobodo Jude",
     role: "SENIOR PARTNER",
-    image: kcee3,
+    image:
+      "https://i.ibb.co/270bnm4F/Whats-App-Image-2025-02-18-at-12-40-11.jpg",
   },
 
   {
     name: "Nwobodo Juliet Ujunwa",
     role: "FINANCE MANAGER",
-    image: kcee2,
+    image:
+      "https://i.ibb.co/NdgNxSMV/Whats-App-Image-2025-02-18-at-12-36-28.jpg",
   },
 ];
 
@@ -38,7 +41,7 @@ const TeamMembers = () => {
             key={member.name}
             className="bg-white w-60 h-72 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105"
           >
-            <Image
+            <img
               src={member.image}
               alt={member.name}
               className="w-full h-48 "
