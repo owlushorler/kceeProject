@@ -6,44 +6,44 @@ import { useEffect, useRef, useState } from "react";
 const pricingData = [
   {
     design: "Bond Design",
-    priceOld: "N6700",
-    priceNew: "N6450",
+    priceOld: "N6400 for 0.55mm",
+    priceNew: "N5850 for 0.45mm",
     logo: "",
     imgUrl:
       "https://i.ibb.co/tzXcSsC/Whats-App-Image-2025-01-15-at-06-49-04.jpg",
   },
   {
     design: "Classic Design",
-    priceOld: "N6700",
-    priceNew: "N6450",
+    priceOld: "N6400 for 0.55mm",
+    priceNew: "N5850 for 0.45mm",
     imgUrl:
       "https://i.ibb.co/h9Scvtx/Whats-App-Image-2025-01-15-at-06-49-10.jpg",
   },
   {
     design: "Shingle Design",
-    priceOld: "N6700",
-    priceNew: "N6450",
+    priceOld: "N6400 for 0.55mm",
+    priceNew: "N5850 for 0.45mm",
     imgUrl:
       "https://i.ibb.co/Qd2ZHY8/Whats-App-Image-2025-01-15-at-06-49-15.jpg",
   },
   {
     design: "Milano Design",
-    priceOld: "N6700",
-    priceNew: "N6450",
+    priceOld: "N6400 for 0.55mm",
+    priceNew: "N5850 for 0.45mm",
     imgUrl:
       "https://i.ibb.co/c23v3cS/Whats-App-Image-2025-01-15-at-06-49-23.jpg",
   },
   {
     design: "Roman Design",
-    priceOld: "N6700",
-    priceNew: "N6450",
+    priceOld: "N6400 for 0.55mm",
+    priceNew: "N5850 for 0.45mm",
     imgUrl:
       "https://i.ibb.co/q9s8Vnk/Whats-App-Image-2025-01-15-at-06-49-35.jpg",
   },
   {
     design: "Flatsheet & Ridges Cover",
-    priceOld: "N6000",
-    priceNew: "N2550",
+    priceOld: "5600 per sq meter and",
+    priceNew: "N2500 per Ridge",
     imgUrl:
       "https://i.ibb.co/qRqWDtg/Whats-App-Image-2025-01-15-at-06-49-36.jpg",
   },
@@ -106,9 +106,9 @@ export default function PricingSection() {
             <h3 className="text-xl font-bold text-blue-950 mt-2">
               {item.design}
             </h3>
-            <p className="text-sm">
-              Was {item.priceOld}, Now {item.priceNew}
-            </p>
+            <div className="text-sm text-white py-2 bg-blue-950 w-96   text-center">
+              {item.priceOld}, <br /> {item.priceNew}
+            </div>
           </div>
         ))}
       </div>
