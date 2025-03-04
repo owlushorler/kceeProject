@@ -1,6 +1,7 @@
 import Image from "next/image";
 import alum from "../images/WhatsApp Image 2025-02-18 at 10.38.11 (1).jpeg";
 import stone from "../images/WhatsApp Image 2025-01-14 at 11.11.38 (2).jpeg";
+import Link from "next/link";
 
 const PriceList = () => {
   const roofingOptions = [
@@ -27,7 +28,7 @@ const PriceList = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {roofingOptions.map((option, index) => (
           <div key={index} className="relative group">
-            <a href={option.link}>
+            <Link href={option.link}>
               <img
                 src={option.image}
                 alt={option.title}
@@ -38,7 +39,7 @@ const PriceList = () => {
               <div className="absolute bottom-0 left-0 right-0 bg-blue-950 hover:cursor-pointer hover:opacity-45 bg-opacity-70 text-white text-center p-2 rounded-b-lg">
                 {option.title}
               </div>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

@@ -109,64 +109,64 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-1">
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="/"
                   >
                     {" "}
                     ~ Home{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="about"
                   >
                     ~ About Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="p"
                   >
                     ~ Price of Stone Coated Roofing Sheets
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="our-price"
                   >
                     ~ Prices of Aluminium Roofing Sheets
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="contact"
                   >
                     ~ Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
                     href="pricelist"
                   >
                     ~ Our Prices
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-gray-700/75"
-                    href="#"
+                    href="/"
                   >
                     ~ Thank You
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

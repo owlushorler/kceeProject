@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FooterMessage() {
   return (
     <div>
@@ -6,7 +8,7 @@ export default function FooterMessage() {
           Please always call to confirm the price. Thank you for your patronage.
         </p>
         <p className="font-bold text-white mt-2">
-          Tel: 09067734915, 08069254277
+          Tel: +2348069254277, +2349067734915
         </p>
       </div>
 
@@ -14,12 +16,12 @@ export default function FooterMessage() {
         <h2 className="text-white text-2xl font-bold">
           Get A Free Estimate and Exclusive Discounts
         </h2>
-        <a
+        <Link
           href="/contact"
           className="inline-block mt-4 bg-blue-950 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-700"
         >
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,9 @@
 import Head from "next/head";
 
 export default function Form() {
+  const phoneNumber = "+2348069254277"; // Replace with your phone number
+  const message = "Hello! I need assistance."; // Default message
+
   return (
     <div className="min-h-screen mt-10 w-screen flex flex-col text-center py-20 px-3 items-center justify-center bg-gray-100">
       <Head>
@@ -132,7 +135,7 @@ export default function Form() {
         {/**second flex */}
         <div className="mt-6 bg-white text-black rounded-lg  ">
           <div className="p-2  mx-auto rounded-lg ">
-            <div className="bg-white gap-3 hover:shadow-2xl hover:cursor-pointer text-black flex flex-row  shadow-md">
+            <div className="bg-white justify-center gap-3 hover:shadow-2xl hover:cursor-pointer text-black flex flex-row  shadow-md">
               <div className="flex items-center">
                 <img
                   src="https://i.ibb.co/wFYFstRm/whatapp0222.webp"
@@ -145,23 +148,23 @@ export default function Form() {
                 <p>Click here to contact us</p>
 
                 <a
-                  href="https://wa.me/234 906 773 4915"
-                  className="flex items-center justify-center w-44 bg-green-600 text-white font-bold py-2 rounded-md hover:bg-green-700 transition duration-200"
+                  href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                    message
+                  )}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className=""
                 >
-                  <img
-                    src="https://i.ibb.co/6RjtT0Pr/whatapp.webp"
-                    alt="WhatsApp"
-                    className="w-5 h-5 mr-2"
-                  />
-                  Send A Message
+                  {" "}
+                  <div className="bg-green-600 rounded-lg p-1 text-white">
+                    Send A Message
+                  </div>
                 </a>
               </div>
             </div>
 
             <div className="mt-6">
-              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+              <div className="flex flex-row justify-center gap-3 hover:shadow-2xl shadow-md p-3 ">
                 <div className="flex items-center">
                   <img
                     src="https://i.ibb.co/PvJFjKw3/535239.png"
@@ -172,13 +175,13 @@ export default function Form() {
                 <div>
                   <h3 className="font-bold mb-2">Address</h3>
                   <p>
-                    198, Ipaja Road, Funmilayo Bus Stop, Agege, Lagos State,
-                    Nigeria
+                    198, Ipaja Road, Funmilayo Bus Stop,
+                    <br /> Agege, Lagos State, Nigeria
                   </p>
                 </div>
               </div>
 
-              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+              <div className="flex flex-row justify-center gap-3 hover:shadow-2xl shadow-md p-3 ">
                 <div className="flex items-center">
                   <img
                     src="https://i.ibb.co/hRbc1DB9/pngtree-email-icon-png-image-1757854.jpg"
@@ -192,7 +195,7 @@ export default function Form() {
                 </div>
               </div>
 
-              <div className="flex flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
+              <div className="flex justify-center flex-row gap-3 hover:shadow-2xl shadow-md p-3 ">
                 <div className="flex items-center">
                   <img
                     src="https://i.ibb.co/fzMGzszg/pngtree-phone-icon-in-solid-circle-png-image-2380227.jpg"
@@ -202,7 +205,7 @@ export default function Form() {
                 </div>
                 <div className="flex flex-col items-center">
                   <h3 className="font-bold mb-2">Phone</h3>
-                  <p>+234 9067734915</p>
+                  <p> +2348069254277 +234 9067734915</p>
                 </div>
               </div>
             </div>
