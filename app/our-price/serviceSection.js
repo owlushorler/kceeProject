@@ -25,7 +25,9 @@ export default function ServicesSection() {
         <li>Metcopo Aluminium Roofing</li>
       </ul>
       <h3 className="text-xl font-semibold mb-2">Gauges Available:</h3>
-      <p className="mb-2 text-sm">0.40, 0.45, 0.50, 0.55A, 0.55B (2.00 mm)</p>
+      <p className="mb-2 text-sm">
+        0.40, 0.45A,0.45B. 0.50, 0.55A, 0.55B ,0.58, 0.60A,0.60B,0.70A
+      </p>
       <h3 className="text-xl font-semibold mb-2">Colors Available:</h3>
       <p className="text-sm">
         Black, Grey, Beige, Red, Bush Green, Blue, and more!

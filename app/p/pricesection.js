@@ -26,13 +26,13 @@ export default function PricingSection() {
         prices, including:
       </h3>
       <ul className="list-disc text-sm list-inside mb-4">
-        <li>Bond Stone Coated Tiles for N6700</li>
-        <li>Classic Stone Coated Tiles for N6700</li>
-        <li>Shingle Stone Coated Tiles for N6700</li>
-        <li>Milano Stone Coated Tiles for N6700</li>
-        <li>Roman Stone Coated Tiles for N6700</li>
+        <li>Bond Stone Coated Tiles N6400 for 0.55mm, N5850 for 0.45mm</li>
+        <li>Classic Stone Coated Tiles N6400 for 0.55mm, N5850 for 0.45mm</li>
+        <li>Shingle Stone Coated Tiles N6400 for 0.55mm, N5850 for 0.45mm</li>
+        <li>Milano Stone Coated Tiles N6400 for 0.55mm, N5850 for 0.45mm</li>
+        <li>Roman Stone Coated Tiles N6400 for 0.55mm, N5850 for 0.45mm</li>
         <li>
-          Stone Coated Flat sheet for N6000 and Ridges cover N2550 per one.
+          Stone Coated Flat sheet for N5600 per sq meter and N2550 per Ridge.
         </li>
       </ul>
       <h3 className="text-xl text-blue-950 font-semibold mb-2">
